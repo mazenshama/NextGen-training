@@ -1,0 +1,177 @@
+.center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: rgb(5, 78, 161);
+}
+h3{
+    color: rgb(5, 78, 161);
+}
+.skills-title{
+    color: white;
+    background-color: rgb(5, 78, 161);
+}
+ul{
+    color: rgb(5, 78, 161);
+}
+.experience-title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+
+table {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-spacing: 2px;
+    table-layout: auto;
+}
+
+th {
+    background-color: #155b91;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 2px;
+    vertical-align: middle;
+}
+
+td ul {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+td img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 17px;
+}
+.logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  font-style: italic;
+  margin: 0 auto;
+}
+
+.logo-tc { background-color: #1a73e8; }
+.logo-da { background: linear-gradient(to bottom, #9c27b0, #e91e63); }
+.logo-wd { background-color: #34a853; }
+.contact-section {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 900px;
+  margin-top: 20px;
+}
+
+.contact-title {
+  color: #1a5b8c;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.contact-desc {
+  color: #333;
+  margin-bottom: 25px;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 0;
+  width: 100%;
+}
+
+fieldset {
+  border: 1px solid #999;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px; 
+}
+
+legend {
+  padding: 0 5px;
+  color: #333;
+  font-size: 15px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px 40px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-group label {
+  flex: 1;
+  font-size: 14px;
+  color: #000;
+  cursor: pointer; 
+}
+
+.form-group input {
+  flex: 1;
+  padding: 6px; 
+  border: 1px solid #777;
+  max-width: 200px;
+  border-radius: 3px;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #1a5b8c; 
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-send, .btn-clear {
+  padding: 7px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 3px;
+  transition: 0.3s; 
+}
+
+.btn-send {
+  background-color: #1a5b8c;
+  color: white;
+  border: 1px solid #144970;
+}
+
+.btn-send:hover {
+  background-color: #144970;
+}
+
+.btn-clear {
+  background-color: #dc3545;
+  color: white;
+  border: 1px solid #b02a37;
+}
+
+.btn-clear:hover {
+  background-color: #b02a37;
+}
